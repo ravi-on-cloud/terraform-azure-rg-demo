@@ -23,25 +23,30 @@ This project demonstrates how to create and manage an Azure Resource Group using
    cd terraform-azure-rg-demo
 
 # Login to Azure CLI:
-az login --use-device-code
+
+    az login --use-device-code
 
 # Initialize Terraform and download providers:
-terraform init
+
+    terraform init
 
 (Optional) Validate Terraform configuration:
-terraform validate
+
+    terraform validate
 
 # Preview the resources to be created:
-terraform plan
+
+    terraform plan
 
 # Apply the configuration to create resources:
-terraform apply
 
-Type yes when prompted to confirm.
+    terraform apply
+
+Type "yes" when prompted to confirm.
 
 # To destroy resources when no longer needed:
 
-terraform destroy
+    terraform destroy
 
 Type "yes" to confirm.
 
